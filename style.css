@@ -1,0 +1,144 @@
+
+
+table,
+th,
+ td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./imges/ffp.jpg);
+    background-repeat: no-repeat;  
+    background-size: 100% 100%; 
+    background-position: center;  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #579cd8;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px; 
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: #5a6268; 
+}
+
+.container-fluid {
+    width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 30px;
+    width: 22%; 
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.2s;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color:#fafcff;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+footer {
+    background-color:  #5297d3;
+    padding: 20px 0;
+}
+
+.footer-section {
+    width: 30%; 
+    margin: 0 10px;
+}
+
+.footer-section img {
+    width: 20%; 
+    height: auto; 
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+.tags button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tags button:hover {
+    background-color: #5a6268;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 20px;
+}
+
+video{
+    border: solid black 5px;
+    border-radius: 10px;
+
+}
